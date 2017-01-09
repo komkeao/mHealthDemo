@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_splash_screen"
+        android:scaleType="centerCrop"
+
+        />
+    <LinearLayout
+        android:id="@+id/logoCC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:textColor="#96ffffff"
+            android:text="Presented by"
+            android:layout_marginBottom="-15sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="50sp"
+            android:layout_height="wrap_content"
+            android:textColor="#96ffffff"
+            android:text="Creative Care"
+            android:layout_marginBottom="50dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/copy_right_text"
+            style="@style/copy_right_text_style" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mHealthDemo</string>
+    <string name="copy_right_text">Copy Right CC Group @ 2016 Khonkaen University</string>
+    <string name="btn_register">Register</string>
+</resources>
